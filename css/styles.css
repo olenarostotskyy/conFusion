@@ -21,7 +21,15 @@
     background: #9575CD;
     color: floralwhite;
 }
-
+ 
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(163, 53, 53, 0.79);  
+}
 .address{
     font-size: 80%;
     margin: 0px;
@@ -51,4 +59,10 @@ body{
     top: 0;
     left: 0;
     min-height: 300px;
+}
+
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
 }
